@@ -12,7 +12,7 @@
             <profileName>Netmeds_GlobalVariables</profileName>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Netmeds_TestSuites/Netmeds_SelectMedicineCatagory</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -30,7 +30,7 @@
             <profileName>Netmeds_GlobalVariables</profileName>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Netmeds_TestSuites/Netmeds_RemoveItemsFromCart</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
