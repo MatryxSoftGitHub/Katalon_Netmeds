@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Click on MyCart to navigate to Cart</description>
+   <name>Navigate to MyCart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57cd6a09-0a25-41d7-a0c6-7dac0883a894</testCaseGuid>
+</TestCaseEntity>

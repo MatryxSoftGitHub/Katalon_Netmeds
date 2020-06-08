@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Netmeds_OrderMedicine_MultipleDT</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>2861485e-29a2-4b50-9e58-a06e177e3b42</testSuiteGuid>
+   <testCaseLink>
+      <guid>ec321d09-1c50-4772-bdfb-d0d5a70ff2fe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SignIn/CustomerLogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6d75788d-d3fd-48e7-8887-ea199fbc0dd7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dt_Netmeds_OrderMedicine</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6d75788d-d3fd-48e7-8887-ea199fbc0dd7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sUserName</value>
+         <variableId>832e6941-accd-4d1f-b2e2-7dda8feb1856</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8244499e-d4b3-4aa5-b190-bea94270ca11</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Select Product/Search Product by Name</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>18cb66c1-23a7-41ac-8355-edb978d5fe84</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dt_Netmeds_PoductDetails</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>18cb66c1-23a7-41ac-8355-edb978d5fe84</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sSearchMedicine</value>
+         <variableId>a9b2dc24-1d27-43d9-a6cd-d0ec6a13c2b8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>18cb66c1-23a7-41ac-8355-edb978d5fe84</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sMedicineName</value>
+         <variableId>29120bf7-9bc0-42a1-92ef-59a79af040bc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>43f6b82e-a567-488b-a21c-eb272b5f23b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Select Product/Select Product Details</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f9ed8c1f-828f-4859-a0c0-9b01985e6ee1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dt_Netmeds_PoductDetails</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c3424e61-3368-4772-b501-d4ed6c13ecdd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dt_Netmeds_Address</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c3424e61-3368-4772-b501-d4ed6c13ecdd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>iPinCode</value>
+         <variableId>5c85add2-d677-40e7-8ef2-d0f030455432</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f9ed8c1f-828f-4859-a0c0-9b01985e6ee1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>iProductQuantity</value>
+         <variableId>5bf51a7f-0b25-4af8-ac94-00cddbdc89f8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3a27ec34-4328-40d2-944c-51fda0d57e4f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product in Cart/Navigate to MyCart</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>45f8bf51-ac17-4bd6-b3ed-94486f8d791f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product in Cart/Proceed to Pay</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>151ff938-eec8-4237-8ba4-899d596b95e2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product in Cart/Add delivery Address</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>41cda8f6-539c-45d6-90b3-38041696a8ef</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dt_Netmeds_Address</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>41cda8f6-539c-45d6-90b3-38041696a8ef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>iPinCode</value>
+         <variableId>e9401fcf-3d0f-465e-8427-c252ddb3ed4d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>41cda8f6-539c-45d6-90b3-38041696a8ef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sStreetName</value>
+         <variableId>997e73c9-8772-48ff-a192-df851d828033</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>41cda8f6-539c-45d6-90b3-38041696a8ef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sLandmark</value>
+         <variableId>241b9131-ef19-4a31-9e59-34ee62973951</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bdcea649-7c05-4294-b3cb-51befb1ee66a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Payment/Select Payment Mode</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

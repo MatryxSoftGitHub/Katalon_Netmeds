@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Select the catagory in the Netmeds mainpage</description>
+   <name>SelectCatagory</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b075927d-1a87-40f0-97e4-6737d4577f8e</testCaseGuid>
+   <variable>
+      <defaultValue>'E'</defaultValue>
+      <description></description>
+      <id>6ea4eb87-9232-44a4-911a-876ee4f0bbae</id>
+      <masked>false</masked>
+      <name>SelectAlphabet</name>
+   </variable>
+</TestCaseEntity>

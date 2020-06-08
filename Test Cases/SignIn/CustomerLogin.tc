@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Enter the username and password to login</description>
+   <name>CustomerLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>857be16d-2880-4e59-ac13-47b2cd1bd55c</testCaseGuid>
+   <variable>
+      <defaultValue>'7411657078'</defaultValue>
+      <description></description>
+      <id>832e6941-accd-4d1f-b2e2-7dda8feb1856</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+</TestCaseEntity>

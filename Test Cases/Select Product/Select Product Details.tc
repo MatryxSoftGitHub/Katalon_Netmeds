@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Select the Product Quantity and chek the delivery Pin code for the Product.</description>
+   <name>Select Product Details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1650f92-e384-4b14-80dc-4dd52223124c</testCaseGuid>
+   <variable>
+      <defaultValue>'560090'</defaultValue>
+      <description></description>
+      <id>5c85add2-d677-40e7-8ef2-d0f030455432</id>
+      <masked>false</masked>
+      <name>PinCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>5bf51a7f-0b25-4af8-ac94-00cddbdc89f8</id>
+      <masked>false</masked>
+      <name>ProductQuantity</name>
+   </variable>
+</TestCaseEntity>

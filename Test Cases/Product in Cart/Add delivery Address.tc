@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Change the existing address</description>
+   <name>Add delivery Address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62832f9b-8dde-4daf-b040-c61008131d17</testCaseGuid>
+   <variable>
+      <defaultValue>'560090'</defaultValue>
+      <description></description>
+      <id>e9401fcf-3d0f-465e-8427-c252ddb3ed4d</id>
+      <masked>false</masked>
+      <name>PinCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'No 43, lave V garden'</defaultValue>
+      <description></description>
+      <id>997e73c9-8772-48ff-a192-df851d828033</id>
+      <masked>false</masked>
+      <name>StreetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Chikkbanavara post'</defaultValue>
+      <description></description>
+      <id>241b9131-ef19-4a31-9e59-34ee62973951</id>
+      <masked>false</masked>
+      <name>Landmark</name>
+   </variable>
+</TestCaseEntity>

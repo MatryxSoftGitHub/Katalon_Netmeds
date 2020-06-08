@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search the required product in the search bar and click on search button.</description>
+   <name>Search Product by Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb3cb65e-850f-40a1-aefb-51f1e211e4c4</testCaseGuid>
+   <variable>
+      <defaultValue>'Cough'</defaultValue>
+      <description></description>
+      <id>a9b2dc24-1d27-43d9-a6cd-d0ec6a13c2b8</id>
+      <masked>false</masked>
+      <name>SearchMedicine</name>
+   </variable>
+   <variable>
+      <defaultValue>'Reswas Cough Syrup 120ml'</defaultValue>
+      <description></description>
+      <id>29120bf7-9bc0-42a1-92ef-59a79af040bc</id>
+      <masked>false</masked>
+      <name>MedicineName</name>
+   </variable>
+</TestCaseEntity>

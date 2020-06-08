@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Select the medicine from medicine catagory</description>
+   <name>Medicines</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90ca6cd2-033e-4ce3-8ec5-079b888477e3</testCaseGuid>
+   <variable>
+      <defaultValue>'Audisol Ear Drops 10ml'</defaultValue>
+      <description></description>
+      <id>312c099e-85e1-4601-8db3-ad97a71a9f05</id>
+      <masked>false</masked>
+      <name>sProductName</name>
+   </variable>
+   <variable>
+      <defaultValue>' Ear Conditions (37) '</defaultValue>
+      <description></description>
+      <id>d1a33dcd-d818-4588-994a-8e307ed84b87</id>
+      <masked>false</masked>
+      <name>sProductCatagory</name>
+   </variable>
+</TestCaseEntity>

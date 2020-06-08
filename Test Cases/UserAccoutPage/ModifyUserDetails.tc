@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Modify the User account details</description>
+   <name>ModifyUserDetails</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68ead3a9-6f49-4038-8d55-6af37f1770a6</testCaseGuid>
+   <variable>
+      <defaultValue>'Male'</defaultValue>
+      <description></description>
+      <id>8ca9dd42-32c3-452c-b3b8-5a26687313dd</id>
+      <masked>false</masked>
+      <name>Gender</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kamal'</defaultValue>
+      <description></description>
+      <id>d678b94c-9903-4fd5-b04a-55ac3ba4bd44</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sharma'</defaultValue>
+      <description></description>
+      <id>dc7999a7-1aba-46ba-aad8-4d60c0d0a54c</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'1994'</defaultValue>
+      <description></description>
+      <id>1d1b218c-f783-4f8c-87cf-a071cfcf1998</id>
+      <masked>false</masked>
+      <name>BirthYear</name>
+   </variable>
+   <variable>
+      <defaultValue>'JUN'</defaultValue>
+      <description></description>
+      <id>2492a153-6093-45ee-a824-55a6ce637aec</id>
+      <masked>false</masked>
+      <name>BirthMonth</name>
+   </variable>
+   <variable>
+      <defaultValue>'20'</defaultValue>
+      <description></description>
+      <id>25c2ed82-b9bd-4cbb-86f7-422b9dfd3ea0</id>
+      <masked>false</masked>
+      <name>BirthDay</name>
+   </variable>
+</TestCaseEntity>

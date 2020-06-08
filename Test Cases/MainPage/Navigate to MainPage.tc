@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Click on the Netmeds icon to navigate to MainPage</description>
+   <name>Navigate to MainPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a243daac-a72b-419b-bbfc-86a2434084e0</testCaseGuid>
+</TestCaseEntity>

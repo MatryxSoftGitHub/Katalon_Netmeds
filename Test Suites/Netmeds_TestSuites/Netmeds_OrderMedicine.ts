@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Netmeds_OrderMedicine</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>9ef69c48-b38a-4851-ac44-6b99ab2e9e14</testSuiteGuid>
+   <testCaseLink>
+      <guid>3e4841f6-56f8-41fb-9748-61091ccb6e75</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SignIn/CustomerLogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3ed73f18-bf68-4abf-b90b-9235f35706d7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dt_Netmeds_OrderMedicine</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3ed73f18-bf68-4abf-b90b-9235f35706d7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sUserName</value>
+         <variableId>832e6941-accd-4d1f-b2e2-7dda8feb1856</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7e156b13-5ba4-4f5a-ab1d-6a85fbc88b3e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Select Product/Search Product by Name</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>361b9a9f-c02e-4fb7-9c17-281e68b94bf1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dt_Netmeds_OrderMedicine</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>361b9a9f-c02e-4fb7-9c17-281e68b94bf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sSearchMedicine</value>
+         <variableId>a9b2dc24-1d27-43d9-a6cd-d0ec6a13c2b8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>361b9a9f-c02e-4fb7-9c17-281e68b94bf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sMedicineName</value>
+         <variableId>29120bf7-9bc0-42a1-92ef-59a79af040bc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e9c481af-1240-4d93-8b99-30d410ac3e92</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Select Product/Select Product Details</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3eb8cdc8-e67c-49d5-beb8-ac9c5c753293</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dt_Netmeds_OrderMedicine</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3eb8cdc8-e67c-49d5-beb8-ac9c5c753293</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>iPinCode</value>
+         <variableId>5c85add2-d677-40e7-8ef2-d0f030455432</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3eb8cdc8-e67c-49d5-beb8-ac9c5c753293</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>iProductQuantity</value>
+         <variableId>5bf51a7f-0b25-4af8-ac94-00cddbdc89f8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e7e3ce57-33c3-4d5b-9319-f3557918bd5e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product in Cart/Navigate to MyCart</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9b1a70d1-eca8-4396-9a02-ba74bd2fd6ee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product in Cart/Proceed to Pay</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0f0c7b18-616e-42ab-8877-0d4cbec0ab4b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product in Cart/Add delivery Address</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b945d962-670f-4787-8b15-fc4b9d0a62a1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dt_Netmeds_OrderMedicine</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b945d962-670f-4787-8b15-fc4b9d0a62a1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>iPinCode</value>
+         <variableId>e9401fcf-3d0f-465e-8427-c252ddb3ed4d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b945d962-670f-4787-8b15-fc4b9d0a62a1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sStreetName</value>
+         <variableId>997e73c9-8772-48ff-a192-df851d828033</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b945d962-670f-4787-8b15-fc4b9d0a62a1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sLandmark</value>
+         <variableId>241b9131-ef19-4a31-9e59-34ee62973951</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b06200d-d80b-42b3-8371-e181a027cf90</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Payment/Select Payment Mode</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dcee44f4-dca8-4edd-b8cd-1678775033bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MainPage/Navigate to MainPage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e596fc3f-340e-4809-98dc-b9bac16d1f49</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SignOut/SignOutNetmeds</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

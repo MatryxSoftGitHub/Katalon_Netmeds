@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Select customer account and click on SignOut button</description>
+   <name>SignOutNetmeds</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c835add4-f79a-4659-a9ea-2818976e2064</testCaseGuid>
+</TestCaseEntity>
